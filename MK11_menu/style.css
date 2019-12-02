@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: url(back.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    color: white;
+}
+
+.content__skills {
+    width: 494px;
+    height: 654px;
+    background-color: black;
+    border: 3px solid #A3905A;
+    border-top: none;
+    margin-left: 30px;
+}
+
+.box__item {
+    cursor: pointer;
+    background-color: #363837;
+    width: 471px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.box__item:hover {
+    background-color: #7B643D;
+    width: 480px;
+    height: 58;
+}
+
+.box__item:hover .item__info {
+    background-color: #5F4827;
+}
+
+.box__item:hover .info__des {
+    color: #EDD7AC;
+}
+
+.item__info {
+    background-color: #10100E;
+    width: 346px;
+    height: 56px;
+    justify-content: space-between;
+    float: right;
+    border-radius: 2px;
+    margin-top: 2px;
+    display: flex;
+    margin-right: 2px;
+}
+
+.item__img {
+    margin-top: 2px;
+    margin-left: 2px;
+    width: 100px;
+    height: 56px;
+    border-radius: 2px;
+}
+
+p.info__titles {
+    font-family: Adelon-Serial-Light;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-top: 5px;
+}
+
+p.info__des {
+    font-family: Adelon-Serial-Light;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #535353;
+}
+
+.info__titles,
+.info__des {
+    margin-left: 10px;
+}
+
+.label {
+    float: right;
+
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.text {
+    width: 180px;
+
+}
+
+img.menu__name {
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+menu {
+    width: 960px;
+}
+
+a.turn__name {
+    color: #415F67;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 12px;
+    font-size: 20px;
+    height: 32px;
+    line-height: 23px;
+    padding-top: 6px;
+    text-transform: uppercase;
+}
+
+a.turn__name:hover {
+    color: white;
+    border-top: 1px solid #8F7C45;
+    border-bottom: 1px solid #8F7C45;
+}
+
+.menu__turn {
+
+    background-image: url(Ellipse.png);
+    height: 60px;
+    background-color: #020200;
+    width: 930px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 12px;
+}
+
+.abylites__item {
+    margin-bottom: 8px;
+
+    width: 420px;
+    height: 210px;
+    background-color: black;
+    border: 2px solid #2B2B2B;
+}
+
+.menu__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+img.content__img {
+    border: 2px solid #2B2B2B;
+    margin-top: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+img.content__img:hover {
+    border: 2px solid #8F7C45;
+}
+
+.slots {
+    font-size: 15px;
+    line-height: 18px;
+    margin-right: 7px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    text-transform: capitalize;
+
+    color: #858585;
+}
+
+.slots__numb {
+    color: #8F7C45;
+}
+
+img.borders {
+    margin-bottom: 5px;
+}
+
+.skills__slots {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+    margin-top: 3px;
+}
+
+img.scorpion {
+    margin-top: 102px;
+    width: 353.43px;
+    height: 686.97px;
+}
+
+img.LB1 {
+    width: 30px;
+    height: 15px;
+    margin-top: 23px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+
+img.LB2 {
+    width: 30px;
+    height: 15px;
+    margin-top: 20px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
+.about__name {
+    margin-top: 5px;
+}
+
+.about__content {
+    display: flex;
+    justify-content: center;
+}
+
+p.about__text {
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #535353;
+    opacity: 0.8;
+    width: 358px;
+}
+
+img.about__skills {
+    margin-right: 22px;
+}
+
+img.paragraf {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+p.description_skills {
+    font-size: 15px;
+    line-height: 18px;
+    color: #5C5748;
+    opacity: 0.8;
+    display: flex;
+    margin-left: 154px;
+    margin-top:4px}
